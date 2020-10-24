@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap');
+
+a {
+  text-decoration: none;
+  color: currentcolor;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font: normal normal normal 80px Roboto;
+  padding-bottom: 20px;
+  margin-bottom: 48px;
+  border-bottom: 1px solid;
+}
+
+h2 {
+  width: 100%;
+  padding-bottom: 10px;
+  margin-bottom: 24px;
+  font: normal normal normal 32px Noto Sans;
+  border-bottom: 1px solid currentcolor;
+}
+
+h2 span {
+  padding: 0 16px;
+  font: normal normal normal 24px Roboto;
+  text-transform: uppercase;
+}
+
+.text-highlight {
+  color: #a00404;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-md {
+  margin-bottom: 72px;
+}
+
+section {
+  padding: 72px 0;
+}
+
+.section-highlight {
+  padding: 24px 0 36px 0;
+  background-color: #415165;
+  color: #fff;
+}
+
+.img-center {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 324px;
+  margin-bottom: 48px;
+}
+
+.experience-img {
+  width: 90px;
+  margin-bottom: 8px;
+}
+
+.social-img {
+  display: block;
+  width: 48px;
+  padding: 0 24px;
+}
+
+ul {
+  text-align: left;
+  font: normal normal normal 24px Noto Sans;
+}
+
+ul li:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+ul li span {
+  display: block;
+  width: 642px;
+  font: normal normal normal 20px Noto Sans;
+}
+
+.ul-border {
+  border-left: 1px solid #96a9c4;
+  padding-left: 20px;
+}
