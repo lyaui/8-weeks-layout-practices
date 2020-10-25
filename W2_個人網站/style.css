@@ -1,0 +1,9 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.jumbotron {
+    height: 958px;
+    background-color: #ccc;
+}
