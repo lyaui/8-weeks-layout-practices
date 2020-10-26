@@ -1,9 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,500;1,700&display=swap');
+
+/* 基本設定、utility樣式 */
+body {
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font: normal 400 20px Roboto;
+    line-height: 42px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: currentcolor;
+}
+
+a:hover {
+    transition: all .3s;
+    transform: translateY(-3px);
+}
+
+span {
+    display: block;
+}
+
 .container {
     max-width: 1200px;
+    margin: auto;
+    padding: 64px 0;
+}
+
+.bg-adjust {
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.font-primary {
+    font: italic normal 500 64px Roboto;
+    line-height: 75px;
+}
+
+.font-secondary {
+    font: italic normal bold 24px Roboto;
+    line-height: 42px;
+}
+
+/* 基本區塊元件樣式 */
+.section__title {
+    margin-bottom: 16px;
+}
+
+.section__description {
+    margin-bottom: 48px;
+}
+
+.section__gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+    margin-bottom: 42px;
+}
+
+.section__gallery li {
+    margin-bottom: 40px;
+    padding: 0 12px;
+}
+
+.list-icon {
+    display: inline-block;
+    margin-right: 16px;
+    width: 22px;
+    height: 22px;
+    background-color: #891818;
+    border-radius: 50%;
+}
+
+/* 個別區塊樣式 */
+
+.jumbotron {
+    height: 100vh;
+    background-image: url(/W2_個人網站/imgs/jumbotron_bg.png);
+}
+
+.jumbotron .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.jumbotron__title-box {
+    color: #fff;
+    margin-bottom: 48px;
+    text-align: left;
+}
+
+.jumbotron__title {
+    font: italic normal 900 80px Roboto;
+    margin-bottom: 42px;
+}
+
+.jumbotron__social-medias a {
+    margin: 0;
+    padding: 0 8px;
+}
+
+.about__avatar {
+    padding: 24px 0;
+}
+
+.about__content {
+    max-width: fit-content;
     margin: 0 auto;
 }
 
-.jumbotron {
-    height: 958px;
-    background-color: #ccc;
+.about__content-basic {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #000
+}
+
+.otherworks {
+    background-image: url(/W2_個人網站/imgs/otherworks_bg.png);
 }
