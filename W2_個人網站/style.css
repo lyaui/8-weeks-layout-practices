@@ -88,7 +88,7 @@ span {
 
 .jumbotron {
     height: 100vh;
-    background-image: url(/W2_個人網站/imgs/jumbotron_bg.png);
+    background-image: url(imgs/jumbotron_bg.png);
 }
 
 .jumbotron .container {
@@ -131,5 +131,5 @@ span {
 }
 
 .otherworks {
-    background-image: url(/W2_個人網站/imgs/otherworks_bg.png);
+    background-image: url(imgs/otherworks_bg.png);
 }
